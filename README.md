@@ -14,7 +14,7 @@ measure departs from average controllability, and a five-domain real-data
 **placement** with a deep-domain worked example on a Varieties of Democracy
 (V-Dem) panel.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/author0725/Emergent_Contribution/blob/main/notebooks/Paper1_reproducibility.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/author1181/Emergent_Contribution/blob/main/notebooks/Paper1_reproducibility.ipynb)
 
 The paper and supplementary materials are included under [`paper/`](paper):
 the main paper (`paper1.pdf`) and supplement (`paper1_supplementary.pdf`).
