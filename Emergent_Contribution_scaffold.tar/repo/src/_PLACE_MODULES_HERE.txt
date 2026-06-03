@@ -1,4 +1,0 @@
-Place these modules here (the notebook imports them; train_NAVAR imports NAVAR):
-  NAVAR.py  train_NAVAR.py  asof_jacobian.py  emergent_contribution.py
-  leakage_safe_split.py  beijing_prep.py  beijing_estimator.py
-(verifier_core.py and verify_paper_numbers.py are already here.)
