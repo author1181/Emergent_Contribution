@@ -16,8 +16,7 @@ measure departs from average controllability, and a five-domain real-data
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/author1181/Emergent_Contribution/blob/main/notebooks/Paper1_reproducibility.ipynb)
 
-The paper and supplementary materials are included under [`paper/`](paper):
-the main paper (`paper1.pdf`) and supplement (`paper1_supplementary.pdf`).
+The paper is included under [`paper/`](paper): `paper1.pdf`.
 
 ## Repository structure
 
@@ -29,11 +28,11 @@ Emergent_Contribution/
 ├── dgp_frozen.md                     Frozen synthetic DGP + pre-registered predictions
 ├── paper/
 │   ├── paper1.pdf                    Main paper
-│   └── paper1_supplementary.pdf      Supplementary materials
 ├── notebooks/
 │   └── Paper1_reproducibility.ipynb  End-to-end Colab orchestrator (run this)
 ├── src/                              Pipeline modules (imported by the notebook)
 │   ├── NAVAR.py                      Neural additive VAR model (MLP/Conv + LSTM)
+│   ├── dataloader.py                 NAVAR data loader 
 │   ├── train_NAVAR.py               NAVAR training loop -> fitted model
 │   ├── asof_jacobian.py             Companion Jacobians + stability diagnostics
 │   ├── emergent_contribution.py     E_j and average-controllability Gramian trace
@@ -201,7 +200,7 @@ instance illustrative figures quoted inline in the prose.
 
 ## Code attribution
 
-The NAVAR architecture and training code — `src/NAVAR.py`, `src/train_NAVAR.py` —
+The NAVAR architecture and training code — `src/NAVAR.py`, `src/train_NAVAR.py`, `src/dataloader.py` —
 is adapted from:
 > Bussmann, B., Nys, J., and Latré, S. 2021. Neural Additive Vector
 > Autoregression Models for Causal Discovery in Time Series. In *Discovery
