@@ -1,0 +1,3 @@
+Place the Beijing multi-site air-quality CSVs here. The notebook globs:
+  data/PRSA_Data_20130301-20170228/PRSA_Data_*.csv
+(one file per monitoring site, the standard Beijing Multi-Site Air-Quality release).

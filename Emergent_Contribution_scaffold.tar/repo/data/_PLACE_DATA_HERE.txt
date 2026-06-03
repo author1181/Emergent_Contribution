@@ -1,0 +1,6 @@
+Place these input files here before pushing (read by the notebook):
+  my_data_75_years.csv      (V-Dem panel)
+  gmd_macro_core.csv        (macro-finance)
+  rv_dataset.csv            (realized volatility)
+  wdi_reversal_panel.csv    (development)
+  PRSA_Data_20130301-20170228/  (Beijing site CSVs: PRSA_Data_*.csv)

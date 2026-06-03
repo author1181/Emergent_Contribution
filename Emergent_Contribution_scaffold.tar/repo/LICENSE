@@ -1,0 +1,6 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Except where noted in README.md (Code attribution), the contents of this
+repository are licensed under CC BY 4.0. The NAVAR-derived modules
+(src/NAVAR.py, src/train_NAVAR.py) remain subject to their original license.

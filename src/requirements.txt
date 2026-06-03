@@ -1,0 +1,9 @@
+# Core dependencies for NAVAR pipeline
+# Lower bounds match original requirements.txt; upper bounds added for reproducibility.
+# FIX (Issue 15): Added upper bounds to prevent silent behavior changes across
+# major PyTorch versions (e.g. torch.std correction default changed in 1.7).
+torch>=1.9.0,<3.0.0
+numpy>=1.21.0,<2.0.0
+pandas>=1.3.0,<3.0.0
+scikit_learn>=0.24.0,<2.0.0
+scipy>=1.7.0,<2.0.0

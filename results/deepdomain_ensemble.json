@@ -1,0 +1,174 @@
+{
+  "pairwise_spearman": 0.853,
+  "corr_within_var": 0.0324,
+  "corr_out_strength": 0.8029,
+  "corr_two_step": 0.7794,
+  "corr_in_strength": 0.6853,
+  "val_loss_mean": 0.04294,
+  "val_loss_sd": 0.00032,
+  "n_seeds": 20,
+  "n_country_years": 4094,
+  "n_segments": 89,
+  "ranks": {
+    "Freedom_of_expression": {
+      "ej": 2,
+      "var": 3,
+      "out": 2,
+      "two_step": 2,
+      "seed_lo": 1,
+      "seed_hi": 3,
+      "mean_w": 0.0982,
+      "sd_w": 0.0109
+    },
+    "Freedom_of_association": {
+      "ej": 1,
+      "var": 4,
+      "out": 1,
+      "two_step": 1,
+      "seed_lo": 1,
+      "seed_hi": 2,
+      "mean_w": 0.1115,
+      "sd_w": 0.0115
+    },
+    "Suffrage": {
+      "ej": 16,
+      "var": 2,
+      "out": 16,
+      "two_step": 15,
+      "seed_lo": 15,
+      "seed_hi": 16,
+      "mean_w": 0.0228,
+      "sd_w": 0.0028
+    },
+    "Clean_elections": {
+      "ej": 9,
+      "var": 7,
+      "out": 5,
+      "two_step": 5,
+      "seed_lo": 3,
+      "seed_hi": 11,
+      "mean_w": 0.0688,
+      "sd_w": 0.008
+    },
+    "Elected_officials": {
+      "ej": 14,
+      "var": 1,
+      "out": 13,
+      "two_step": 13,
+      "seed_lo": 13,
+      "seed_hi": 15,
+      "mean_w": 0.0384,
+      "sd_w": 0.0046
+    },
+    "Individual_liberty": {
+      "ej": 3,
+      "var": 10,
+      "out": 3,
+      "two_step": 3,
+      "seed_lo": 2,
+      "seed_hi": 10,
+      "mean_w": 0.0758,
+      "sd_w": 0.0074
+    },
+    "Judicial_constraints": {
+      "ej": 5,
+      "var": 15,
+      "out": 7,
+      "two_step": 8,
+      "seed_lo": 4,
+      "seed_hi": 12,
+      "mean_w": 0.0633,
+      "sd_w": 0.0048
+    },
+    "Legislative_constraints": {
+      "ej": 7,
+      "var": 8,
+      "out": 10,
+      "two_step": 10,
+      "seed_lo": 3,
+      "seed_hi": 9,
+      "mean_w": 0.0672,
+      "sd_w": 0.005
+    },
+    "Civil_participation": {
+      "ej": 12,
+      "var": 6,
+      "out": 8,
+      "two_step": 7,
+      "seed_lo": 4,
+      "seed_hi": 12,
+      "mean_w": 0.0627,
+      "sd_w": 0.0034
+    },
+    "Direct_vote": {
+      "ej": 15,
+      "var": 16,
+      "out": 15,
+      "two_step": 16,
+      "seed_lo": 14,
+      "seed_hi": 16,
+      "mean_w": 0.0319,
+      "sd_w": 0.0016
+    },
+    "Local_government": {
+      "ej": 10,
+      "var": 9,
+      "out": 12,
+      "two_step": 12,
+      "seed_lo": 3,
+      "seed_hi": 11,
+      "mean_w": 0.0638,
+      "sd_w": 0.0046
+    },
+    "Regional_government": {
+      "ej": 11,
+      "var": 11,
+      "out": 4,
+      "two_step": 4,
+      "seed_lo": 9,
+      "seed_hi": 14,
+      "mean_w": 0.0529,
+      "sd_w": 0.0048
+    },
+    "Deliberative": {
+      "ej": 6,
+      "var": 5,
+      "out": 6,
+      "two_step": 6,
+      "seed_lo": 5,
+      "seed_hi": 12,
+      "mean_w": 0.0639,
+      "sd_w": 0.0036
+    },
+    "Equal_access": {
+      "ej": 13,
+      "var": 14,
+      "out": 14,
+      "two_step": 14,
+      "seed_lo": 11,
+      "seed_hi": 13,
+      "mean_w": 0.0536,
+      "sd_w": 0.0026
+    },
+    "Equal_distribution": {
+      "ej": 4,
+      "var": 12,
+      "out": 9,
+      "two_step": 9,
+      "seed_lo": 4,
+      "seed_hi": 12,
+      "mean_w": 0.0644,
+      "sd_w": 0.0037
+    },
+    "Equal_protection": {
+      "ej": 8,
+      "var": 13,
+      "out": 11,
+      "two_step": 11,
+      "seed_lo": 3,
+      "seed_hi": 12,
+      "mean_w": 0.0607,
+      "sd_w": 0.0044
+    }
+  }
+}
