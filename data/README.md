@@ -25,7 +25,7 @@ Daily realized volatilities of 8 major global equity indices.
 ### `wdi_reversal_panel.csv` — Economic development
 8 World Bank World Development Indicators at annual resolution.
 
-### `beijing/` — Air quality
+### `PRSA_Data_20130301-20170228/` — Air quality
 11 hourly pollutant and meteorological channels from multi-site monitoring in
 Beijing, 2013–2017. Preprocessed by `src/beijing_prep.py`.
 
