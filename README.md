@@ -1,7 +1,7 @@
 # Trajectory-Aware Node Contributions and the Limits of Static Controllability
 
 Reproducibility repository for the ICDM 2026 submission **"Trajectory-Aware
-Node Contributions and the Limits of Static Controllability"** (paper #<submission-id>).
+Node Contributions and the Limits of Static Controllability"** (paper #DM-740).
 
 This work defines **emergent contribution** ($E_j$), a finite-horizon measure of
 a node's dynamical leverage in an estimated nonlinear, time-varying system,
