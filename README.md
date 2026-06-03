@@ -33,26 +33,26 @@ Emergent_Contribution/
 ├── src/                              Pipeline modules (imported by the notebook)
 │   ├── NAVAR.py                      Neural additive VAR model (MLP/Conv + LSTM)
 │   ├── dataloader.py                 NAVAR data loader 
-│   ├── train_NAVAR.py               NAVAR training loop -> fitted model
-│   ├── asof_jacobian.py             Companion Jacobians + stability diagnostics
-│   ├── emergent_contribution.py     E_j and average-controllability Gramian trace
-│   ├── leakage_safe_split.py        Frozen pre-cutoff temporal split + standardizer
-│   ├── beijing_prep.py              Air-quality panel preprocessing
-│   ├── beijing_estimator.py         Air-quality panel estimator helper
-│   ├── verifier_core.py             CHECKS list mapping paper numbers -> artifacts
-│   └── verify_paper_numbers.py      Runner: asserts every paper number (Path A)
+│   ├── train_NAVAR.py                NAVAR training loop -> fitted model
+│   ├── asof_jacobian.py              Companion Jacobians + stability diagnostics
+│   ├── emergent_contribution.py      E_j and average-controllability Gramian trace
+│   ├── leakage_safe_split.py         Frozen pre-cutoff temporal split + standardizer
+│   ├── beijing_prep.py               Air-quality panel preprocessing
+│   ├── beijing_estimator.py          Air-quality panel estimator helper
+│   ├── verifier_core.py              CHECKS list mapping paper numbers -> artifacts
+│   └── verify_paper_numbers.py       Runner: asserts every paper number (Path A)
 ├── data/
-│   ├── my_data_75_years.csv         V-Dem panel: 89 countries x 75 years, 16 components
-│   ├── gmd_macro_core.csv           Global Macro Database core series (macro-finance)
-│   ├── rv_dataset.csv               Realized volatilities, 8 global equity indices
-│   ├── wdi_reversal_panel.csv       World Development Indicators panel
+│   ├── my_data_75_years.csv          V-Dem panel: 89 countries x 75 years, 16 components
+│   ├── gmd_macro_core.csv            Global Macro Database core series (macro-finance)
+│   ├── rv_dataset.csv                Realized volatilities, 8 global equity indices
+│   ├── wdi_reversal_panel.csv        World Development Indicators panel
 │   ├── PRSA_Data_20130301-20170228/  Beijing air-quality site CSVs (PRSA_Data_*.csv)
-│   └── README.md                    Data dictionary + provenance/citations
-└── results/                         Canonical outputs reproduced by the notebook
-    ├── phase_diagram_results.csv    20-seed phase grid (Table 1, Fig. 1)
-    ├── phase_diagram.png            Phase diagram figure (Fig. 1)
-    ├── domain_placement.csv         Five-domain placement (Table 2)
-    └── deepdomain_ensemble.json     20-seed deep-domain ensemble (worked example)
+│   └── README.md                     Data dictionary + provenance/citations
+└── results/                          Canonical outputs reproduced by the notebook
+    ├── phase_diagram_results.csv     20-seed phase grid (Table 1, Fig. 1)
+    ├── phase_diagram.png             Phase diagram figure (Fig. 1)
+    ├── domain_placement.csv          Five-domain placement (Table 2)
+    └── deepdomain_ensemble.json      20-seed deep-domain ensemble (worked example)
 ```
 
 ## How to reproduce
